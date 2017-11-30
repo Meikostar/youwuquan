@@ -5,20 +5,27 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.Window;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 
 import com.zqd.common.R;
 import com.zqd.common.baseapp.AppManager;
 import com.zqd.common.baserx.RxManager;
+import com.zqd.common.permission.PermissionGen;
 import com.zqd.common.utils.StatusBarCompat;
 import com.zqd.common.utils.TUtil;
 import com.zqd.common.utils.ToastUitl;
 import com.zqd.common.widget.LoadingDialog;
+import com.zqd.common.widget.ToastView;
 
 import butterknife.ButterKnife;
 
@@ -105,15 +112,46 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         // 把actvity放到application栈中管理
         AppManager.getAppManager().addActivity(this);
         // 无标题
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         // 设置竖屏
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 //        SetStatusBarColor(Color.parseColor("#ddbf81"));
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        SetTranslanteBar();
         SetStatusBarColor(Color.parseColor("#e6e6e6"));
 
     }
+    /**
+     * 关闭键盘
+     */
+    public void closeKeyBoard() {
+        try {
+            if(this.getCurrentFocus() == null){
+                return;
+            }
+            IBinder iBinder = this.getCurrentFocus().getWindowToken();
+            if (iBinder == null) {
+                return;
+            }
+            InputMethodManager inputMethodManager = (InputMethodManager)
+                    getApplicationContext().getSystemService(Context.INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(iBinder, inputMethodManager.HIDE_NOT_ALWAYS);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
+    public void showToast(String msg) {
+        ToastView toastView = new ToastView(getApplicationContext(), msg);
+        toastView.setGravity(Gravity.CENTER, 0, 0);
+        toastView.show();
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                                           int[] grantResults) {
+        PermissionGen.onRequestPermissionsResult(this, requestCode, permissions, grantResults);
+    }
     /*********************子类实现*****************************/
     //获取布局文件
     public abstract int getLayoutId();

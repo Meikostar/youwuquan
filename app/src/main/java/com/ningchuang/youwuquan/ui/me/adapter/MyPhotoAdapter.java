@@ -1,6 +1,7 @@
 package com.ningchuang.youwuquan.ui.me.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.ningchuang.youwuquan.R;
+import com.ningchuang.youwuquan.ui.me.activity.PublicAlbumActivity;
 import com.ningchuang.youwuquan.ui.me.bean.AlbumBean;
 
 import java.util.List;
@@ -36,7 +38,35 @@ public class MyPhotoAdapter extends RecyclerView.Adapter<MyPhotoAdapter.MyViewHo
 //        holder.mIcon
 
         holder.mText.setText(mList.get(position).getAlbumName());
-        Glide.with(context).load(mList.get(position).getIconString()).error(R.mipmap.ic_launcher_round).into(holder.mIcon);
+        if(position==0){
+            Glide.with(context).load(R.mipmap.me_tu1).error(R.mipmap.ic_launcher_round).into(holder.mIcon);
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                }
+            });
+        }else if(position==1){
+            Glide.with(context).load(R.mipmap.me_tu2).error(R.mipmap.ic_launcher_round).into(holder.mIcon);
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(context, PublicAlbumActivity.class);
+                    intent.putExtra("type",1);
+                    context.startActivity(intent);
+                }
+            });
+        }else {
+            Glide.with(context).load(R.mipmap.me_tu3).error(R.mipmap.ic_launcher_round).into(holder.mIcon);
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(context, PublicAlbumActivity.class);
+                    intent.putExtra("type",2);
+                    context.startActivity(intent);
+                }
+            });
+        }
 
     }
 

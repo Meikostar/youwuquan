@@ -1,13 +1,107 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/beijing"
     tools:context="com.ningchuang.youwuquan.ui.upload.fragment.UpLoadFragment">
-
+   <RelativeLayout
+       android:background="@mipmap/mengceng"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="180dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+            android:id="@+id/ll_word"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:src="@mipmap/publish_words"
+               android:layout_width="60dp"
+               android:layout_height="60dp" />
+           <TextView
+               android:text="文字"
+               android:layout_marginTop="7dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/slow_black"
+               android:textSize="13sp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll_photo"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:src="@mipmap/publish_photograph"
+               android:layout_width="60dp"
+               android:layout_height="60dp" />
+           <TextView
+               android:text="拍摄"
+               android:layout_marginTop="7dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/slow_black"
+               android:textSize="13sp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll_xc"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:src="@mipmap/publish_photo"
+               android:layout_width="60dp"
+               android:layout_height="60dp" />
+           <TextView
+               android:text="相册"
+               android:layout_marginTop="7dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/slow_black"
+               android:textSize="13sp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll_video"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:src="@mipmap/publish_video"
+               android:layout_width="60dp"
+               android:layout_height="60dp" />
+           <TextView
+               android:text="视频"
+               android:layout_marginTop="7dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/slow_black"
+               android:textSize="13sp"/>
+       </LinearLayout>
+   </LinearLayout>
+       <ImageView
+           android:id="@+id/iv_close"
+           android:padding="10dp"
+           android:layout_marginBottom="10dp"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:src="@mipmap/publish_back"/>
+   </RelativeLayout>
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+
+</RelativeLayout>

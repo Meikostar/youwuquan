@@ -10,6 +10,7 @@ import com.ningchuang.youwuquan.ui.home.adapter.NearbyPeopleAdapter;
 import com.ningchuang.youwuquan.ui.home.bean.NearbyPeopleBean;
 import com.ningchuang.youwuquan.view.PhotoPopupWindow;
 import com.zqd.common.base.BaseActivity;
+import com.zqd.common.base.NavigationBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +20,8 @@ import butterknife.OnClick;
 
 public class NearbyActivity extends BaseActivity implements NearbyPeopleAdapter.SetOnNearbyPeopleClick {
 
-
+    @Bind(R.id.navigationBar)
+    NavigationBar navigationBar;
     @Bind(R.id.rlv_nearby_people)
     RecyclerView rlvNearbyPeople;
 
@@ -60,7 +62,7 @@ public class NearbyActivity extends BaseActivity implements NearbyPeopleAdapter.
     }
     @Override
     public void initView() {
-//        navigationBar.setNavigationBarListener(this);
+        navigationBar.setNavigationBarListener(this);
         peopleBeanList = new ArrayList<>();
         peopleBeanList.add(new NearbyPeopleBean());
         peopleBeanList.add(new NearbyPeopleBean());
@@ -71,23 +73,13 @@ public class NearbyActivity extends BaseActivity implements NearbyPeopleAdapter.
         rlvNearbyPeople.setAdapter(nearbyPeopleAdapter);
     }
 
-
-    @OnClick({R.id.top_home_black, R.id.top_home_filtrate})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
-            case R.id.top_home_black:
-                finish();
-                break;
-            case R.id.top_home_filtrate:
-                showPopwindow();
-                break;
-        }
-    }
-
     @Override
     public void onNearbyPeopleClick(View view, Object o, int pos) {
 
     }
-
+    @Override
+    public void navigationimg() {
+        showPopwindow();
+    }
 
 }

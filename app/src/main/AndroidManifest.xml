@@ -40,7 +40,11 @@
         <activity android:name=".ui.me.activity.Applying_for_certificateActivity" />
         <activity android:name=".ui.me.activity.PerfectionInfoActivity" />
         <activity android:name=".ui.me.activity.BoyChooseActivity" />
-        <activity android:name=".ui.me.activity.ActorCardActivity"></activity>
+        <activity android:name=".ui.me.activity.ActorCardActivity" />
+        <activity android:name=".ui.upload.activity.ReleaseActivity" />
+        <activity android:name=".ui.upload.activity.FlagActivity" />
+        <activity android:name=".ui.me.activity.PublicAlbumActivity" />
+        <activity android:name=".ui.me.activity.ImageListWitesActivity"></activity>
     </application>
 
 </manifest>

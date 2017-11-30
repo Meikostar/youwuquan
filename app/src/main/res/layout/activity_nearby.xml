@@ -5,11 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context="com.ningchuang.youwuquan.ui.home.activity.NearbyActivity">
    <com.zqd.common.base.NavigationBar
+       android:id="@+id/navigationBar"
        app:navigationTitle="附近的人"
        android:layout_width="match_parent"
-
+       app:navigationRight_img="@mipmap/home_filtrate"
+       app:navigationRight_type="img"
        android:layout_height="wrap_content"/>
     <!--<include layout="@layout/top_home_item" />-->
 

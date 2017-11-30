@@ -6,6 +6,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -75,7 +76,7 @@ public class ModelInfoActivity extends BaseActivity {
     public List<Integer> jinengList = null;
 
     public List<Model_Find_Bean> mList = null;
-
+    private int type=0;
     private int[] icon = null;
 
     //Viewpager
@@ -179,6 +180,10 @@ public class ModelInfoActivity extends BaseActivity {
 
     @Override
     public void initView() {
+         type = getIntent().getIntExtra("type", 0);
+         if(type!=0){
+             guanzhuButtonModelInfo.setVisibility(View.INVISIBLE);
+        }
         rennzhengRecycModelInfo.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false));
         jinengRecycModelInfo.setLayoutManager(new GridLayoutManager(this, 4, GridLayoutManager.VERTICAL, false));
         dongtaiRecycMopdelInfo.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
