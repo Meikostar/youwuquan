@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+
+       android:gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/tv_all"
+           android:gravity="center"
+           android:text="查看全部"
+           android:textSize="15sp"
+           android:textColor="@color/slow_black"
+           android:layout_width="match_parent"
+           android:layout_height="44dp" />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="0.5dp"
+           android:background="@color/line"/>
+   </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_girl"
+            android:gravity="center"
+            android:text="只看女神"
+            android:textSize="15sp"
+            android:textColor="@color/slow_black"
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_boy"
+            android:gravity="center"
+            android:text="只看男神"
+            android:textSize="15sp"
+            android:textColor="@color/slow_black"
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#fff5f5f5"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="15sp"
+            android:textColor="@color/slow_black"
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line"/>
+    </LinearLayout>
+
+</LinearLayout>

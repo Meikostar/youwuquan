@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="50dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recode_item_action"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="提现"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/recode_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2017-09-05  08:03:66"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:id="@+id/recode_item_money"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="-3020.00元" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:background="#e6e6e6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

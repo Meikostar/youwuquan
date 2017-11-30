@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ningchuang.youwuquan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.find.activity.ModelInfoActivity" />
+        <activity android:name=".ui.me.activity.LoginActivity" />
+        <activity android:name=".ui.me.activity.RegisterActivity" />
+        <activity android:name=".ui.me.activity.ForgetPwdActivity" />
+        <activity android:name=".ui.me.activity.LoginBindActivity" />
+        <activity android:name=".ui.me.activity.MeMoneyActivity" />
+        <activity android:name=".ui.me.activity.MeInfoActivity" />
+        <activity android:name=".ui.me.activity.RecodeActivity" />
+        <activity android:name=".ui.me.activity.MeAlbumActivity" />
+        <activity android:name=".ui.home.activity.SearchActivity" />
+        <activity android:name=".ui.me.activity.SettingActivity" />
+        <activity android:name=".ui.commom.activity.DetailsActivity" />
+        <activity android:name=".ui.home.activity.NearbyActivity" />
+        <activity android:name=".ui.home.activity.SearchResultActivity" />
+        <activity android:name=".ui.me.activity.AuthenticationActivity" />
+        <activity android:name=".ui.me.activity.Applying_for_certificateActivity" />
+        <activity android:name=".ui.me.activity.PerfectionInfoActivity" />
+        <activity android:name=".ui.me.activity.BoyChooseActivity" />
+        <activity android:name=".ui.me.activity.ActorCardActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/mipmap-xhdpi/icon_tool.png",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/mipmap-xhdpi/icon_tool.png"
+    }
+]

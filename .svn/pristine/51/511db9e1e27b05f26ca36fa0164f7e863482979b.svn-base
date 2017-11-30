@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/item_huodong">
+
+    <ImageView
+        android:id="@+id/image_item_huodong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/huodong_0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_item_huodong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/title_huodong"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/content_item_huodong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/content_huodong"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/jion_item_huodong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="立即参与"
+                android:textColor="#fff" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/find_activetymore"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

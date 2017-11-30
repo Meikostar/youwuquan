@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_gradient_wangh.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/shape_gradient_wangh.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_dots_default.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/shape_dots_default.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/selector_top_ok.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/drawable/selector_top_ok.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/edit_input.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/edit_input.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/ic_wifi_off.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/ic_wifi_off.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/white_radius.xml",
+        "source": "/home/wl/.android/build-cache/8d7eb4654ab41da641d57e9f5daa43f5ce60b212/output/res/drawable/white_radius.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_dilog.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/shape_dilog.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/button_guanzhu.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/button_guanzhu.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/wechat_guanzhu.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/wechat_guanzhu.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/banner_default.png",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/banner_default.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/black_background.xml",
+        "source": "/home/wl/.android/build-cache/8d7eb4654ab41da641d57e9f5daa43f5ce60b212/output/res/drawable/black_background.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/selector_gray.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/selector_gray.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/toux2.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/toux2.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/selector_back_press.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/drawable/selector_back_press.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_gradient_actor.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/shape_gradient_actor.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_home_blue.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/shape_home_blue.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/no_content_tip.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/no_content_tip.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/ic_success.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/ic_success.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/item_huodong.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/item_huodong.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/loading_progress.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/loading_progress.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/no_banner.png",
+        "source": "/home/wl/.android/build-cache/8d7eb4654ab41da641d57e9f5daa43f5ce60b212/output/res/drawable/no_banner.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/bili_default_image_tv.9.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/bili_default_image_tv.9.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/selector_pickerview_btn.xml",
+        "source": "/home/wl/.android/build-cache/66ff95ca6be074870abaf0f461686020b53497ac/output/res/drawable/selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_dots_select.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/shape_dots_select.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/tv_rounded_corners.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/tv_rounded_corners.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/progressbar_refresh.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/progressbar_refresh.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/selector_grid_camera_bg.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/drawable/selector_grid_camera_bg.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_home_xu.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/shape_home_xu.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/elevation.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/elevation.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/ic_image_loading.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/ic_image_loading.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/loading_dialog_progressbar.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/loading_dialog_progressbar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/ic_wrong.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/ic_wrong.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_search.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/shape_search.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/ic_empty_picture.png",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/drawable/ic_empty_picture.png"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/shape_news_oval.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/shape_news_oval.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/gray_radius.xml",
+        "source": "/home/wl/.android/build-cache/8d7eb4654ab41da641d57e9f5daa43f5ce60b212/output/res/drawable/gray_radius.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/button.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/button.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/phone_guanzhu.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/drawable/phone_guanzhu.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/selector_item_checked.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/drawable/selector_item_checked.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/drawable/notification_bg_low.xml"
+    }
+]

@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#fff</item>
+    </style>
+    <style name="popwin_anim">
+        <item name="android:windowEnterAnimation">@anim/popw_show</item>
+        <item name="android:windowExitAnimation">@anim/popw_hide</item>
+    </style>
+    <!--导航条-->
+    <declare-styleable name="NavigationBar">
+        <attr name="navigation_bg" format="color"></attr>
+
+        <attr name="navigationLeft_type" format="enum">
+            <enum name="gone" value="0"></enum>
+            <enum name="img" value="1"></enum>
+        </attr>
+        <attr name="navigationRight_type" format="enum">
+            <enum name="gone" value="0"></enum>
+            <enum name="img" value="1"></enum>
+            <enum name="txt" value="2"></enum>
+            <enum name="top" value="3"></enum>
+        </attr>
+        <attr name="navigationTitle" format="string"></attr>
+        <attr name="navigationRight_txt" format="string"></attr>
+        <attr name="navigationRight_txt_color" format="color"></attr>
+        <attr name="navigationRight_img" format="reference"></attr>
+        <attr name="navigationLeft_img" format="reference"></attr>
+        <attr name="right_img" format="reference"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/details_head_icon"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/details_head_icon"
+        android:layout_toRightOf="@id/details_head_icon"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/details_head_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我在假日广场"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/details_head_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-9-18  14:20"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/details_guanzhu"
+        android:layout_width="68dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_guanzhu"
+        android:text="+关注"
+        android:textColor="#fff" />
+
+</RelativeLayout>

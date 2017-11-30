@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ningchuang.youwuquan.ui.me.activity.MeInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@mipmap/back" />]
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="我的资料"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="昵    称 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/me_info_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:background="@null"
+            android:hint="请输入昵称"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="出生日期 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/me_info_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:background="@null"
+            android:hint="选择"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="星    座 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+
+        <Spinner
+            android:id="@+id/me_info_constellation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="三    围 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/me_info_bust"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:hint="胸围"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="cm"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/me_info_waist"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:hint="腰围"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="cm"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/me_info_hipline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:hint="臀围"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="cm"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="身    高 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/me_info_height"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:hint="未填"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="cm"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="微信号码 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/me_info_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:background="@null"
+            android:hint="请输入微信号码"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="手机号码 :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/me_info_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:background="@null"
+            android:hint="请输入手机号码"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#e6e6e6" />
+
+
+    <Button
+        android:id="@+id/me_info_save"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button"
+        android:text="保存"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

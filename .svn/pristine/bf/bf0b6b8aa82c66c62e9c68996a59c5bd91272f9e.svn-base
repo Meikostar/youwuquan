@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ningchuang.youwuquan.ui.home.activity.SearchActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:elevation="1dp"
+        android:background="@color/white"
+        >
+        
+        <RelativeLayout
+            android:id="@+id/rll_search_context"
+            android:layout_width="310dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_search"
+            >
+            <EditText
+                android:id="@+id/et_search_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19.5dp"
+                android:background="@null"
+                android:hint="搜索您感兴趣的内容和用户"
+                android:textSize="12sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rll_search_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/rll_search_context"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="46dp"
+
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="历史搜索"
+             android:textColor="#040000"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="10dp"
+             android:textSize="@dimen/normal_text_fifteen"
+             />
+         <ImageView
+             android:id="@+id/iv_search_history_cancle"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:src="@mipmap/search_delete"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:paddingRight="10dp"
+             android:paddingLeft="10dp"
+             />
+     </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_search_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:overScrollMode="never"
+        android:layout_marginRight="10dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"
+        android:textColor="#040000"
+        android:layout_marginTop="15.5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/normal_text_fifteen"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_search_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:overScrollMode="never"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

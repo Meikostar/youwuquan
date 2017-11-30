@@ -1,0 +1,538 @@
+[
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/top_news_item.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/top_news_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_text_image_find.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_text_image_find.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_model_info.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_model_info.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_me_money.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_me_money.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_info_text.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_info_text.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_new.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_new.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_authentication.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_huodong.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_huodong.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/pop_folder.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/pop_folder.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_home_wangh.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_home_wangh.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragmnet_guanzhu.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragmnet_guanzhu.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_image_grid.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/activity_image_grid.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_details_head.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_details_head.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/adapter_camera_item.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/adapter_camera_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_tab_right.xml",
+        "source": "/home/wl/.android/build-cache/ff5a7e3e6a13c6f4cb9fdf514575ee62cf37a73c/output/res/layout/layout_tab_right.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_tab_top.xml",
+        "source": "/home/wl/.android/build-cache/ff5a7e3e6a13c6f4cb9fdf514575ee62cf37a73c/output/res/layout/layout_tab_top.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_tab_left.xml",
+        "source": "/home/wl/.android/build-cache/ff5a7e3e6a13c6f4cb9fdf514575ee62cf37a73c/output/res/layout/layout_tab_left.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_find.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_find.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_wang_h.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_wang_h.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_dongtai_foot.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_dongtai_foot.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/toast_custom.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/layout/toast_custom.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_tab_segment.xml",
+        "source": "/home/wl/.android/build-cache/ff5a7e3e6a13c6f4cb9fdf514575ee62cf37a73c/output/res/layout/layout_tab_segment.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/pickerview_options.xml",
+        "source": "/home/wl/.android/build-cache/66ff95ca6be074870abaf0f461686020b53497ac/output/res/layout/pickerview_options.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_me.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_me.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/adapter_folder_list_item.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/adapter_folder_list_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_basepickerview.xml",
+        "source": "/home/wl/.android/build-cache/66ff95ca6be074870abaf0f461686020b53497ac/output/res/layout/layout_basepickerview.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_nearby.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_nearby.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/include_pickerview_topbar.xml",
+        "source": "/home/wl/.android/build-cache/66ff95ca6be074870abaf0f461686020b53497ac/output/res/layout/include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_recode.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_recode.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/banner.xml",
+        "source": "/home/wl/.android/build-cache/8d7eb4654ab41da641d57e9f5daa43f5ce60b212/output/res/layout/banner.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/album_item.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/album_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_news_message.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_news_message.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_tuijian.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_tuijian.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_details.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_details.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/include_top_bar.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/include_top_bar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_nearby_people.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_nearby_people.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_custom_banner.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/layout/layout_custom_banner.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_image_preview.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/activity_image_preview.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_video.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_video.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_renzheng.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_renzheng.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/pickerview_time.xml",
+        "source": "/home/wl/.android/build-cache/66ff95ca6be074870abaf0f461686020b53497ac/output/res/layout/pickerview_time.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_actor.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_actor.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/top_home_item.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/top_home_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_tab_bottom.xml",
+        "source": "/home/wl/.android/build-cache/ff5a7e3e6a13c6f4cb9fdf514575ee62cf37a73c/output/res/layout/layout_tab_bottom.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/my_test.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/my_test.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_login_bind.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_login_bind.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_forget_pwd.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_forget_pwd.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/details_item_num_show.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/details_item_num_show.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/wl/.android/build-cache/e84952e0214dedc96ece384e09a45ed9f260e7a7/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_home_search.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_home_search.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/dialog_loading_tip.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/layout/dialog_loading_tip.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_refresh_footer.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/layout/layout_refresh_footer.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_up_load.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_up_load.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/home_actor_new.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/home_actor_new.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_info_text_pic.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_info_text_pic.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_dongtai_head.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_dongtai_head.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_news_play.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_news_play.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_jineng.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_jineng.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/custom_title_bar.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/custom_title_bar.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_home_nearby.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_home_nearby.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_tablayout_main.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_tablayout_main.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/details_item_dianzan.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/details_item_dianzan.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/recode_item.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/recode_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/layout_tab.xml",
+        "source": "/home/wl/.android/build-cache/ff5a7e3e6a13c6f4cb9fdf514575ee62cf37a73c/output/res/layout/layout_tab.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_me_info.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_me_info.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_me_photo.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_me_photo.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/simple_spinner_item.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/simple_spinner_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_dongtai_text.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_dongtai_text.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/item_dongtai_tuwen.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/item_dongtai_tuwen.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/details_images.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/details_images.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/adapter_image_list_item.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/adapter_image_list_item.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/activity_image_crop.xml",
+        "source": "/home/wl/.android/build-cache/a0615ab37608d95c5d83dd7ea3d8eceaa0a26975/output/res/layout/activity_image_crop.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/dailog_style.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/common/build/intermediates/bundles/default/res/layout/dailog_style.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/fragment_fake_home.xml",
+        "source": "/home/wl/yuebuyue/youwuquan/app/src/main/res/layout/fragment_fake_home.xml"
+    },
+    {
+        "merged": "/home/wl/yuebuyue/youwuquan/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/wl/.android/build-cache/3993fc18eb39ae81489da7f6bdad0b154c78726e/output/res/layout/abc_expanded_menu_layout.xml"
+    }
+]

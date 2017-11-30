@@ -1,0 +1,38 @@
+package com.ningchuang.youwuquan.ui.me.activity;
+
+import com.ningchuang.youwuquan.R;
+import com.ningchuang.youwuquan.app.Api;
+import com.ningchuang.youwuquan.ui.me.bean.RegisterBean;
+import com.zqd.common.base.BaseActivity;
+import com.zqd.common.baserx.RxSchedulers;
+import com.zqd.common.baserx.RxSubscriber;
+
+public class RegisterActivity extends BaseActivity {
+
+    @Override
+    public int getLayoutId() {
+        return R.layout.activity_register;
+    }
+
+    @Override
+    public void initPresenter() {
+
+    }
+
+    @Override
+    public void initView() {
+        Api.getDefault().getRegisterResponse("","","","","").map(registerBean -> registerBean).
+                compose(new RxSchedulers().io_main()).
+                subscribe(new RxSubscriber<RegisterBean>(this,false) {
+            @Override
+            protected void _onNext(RegisterBean registerBean) {
+
+            }
+
+            @Override
+            protected void _onError(String message) {
+
+            }
+        });
+    }
+}

@@ -1,0 +1,46 @@
+package com.ningchuang.youwuquan.ui.home.activity;
+
+import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
+import com.ningchuang.youwuquan.R;
+import com.zqd.common.base.BaseActivity;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
+public class NearbyActivity extends BaseActivity {
+
+
+    @Bind(R.id.rlv_nearby_people)
+    RecyclerView rlvNearbyPeople;
+
+    @Override
+    public int getLayoutId() {
+        return R.layout.activity_nearby;
+    }
+
+    @Override
+    public void initPresenter() {
+
+    }
+
+    @Override
+    public void initView() {
+
+    }
+
+
+    @OnClick({R.id.top_home_black, R.id.top_home_filtrate})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.top_home_black:
+                finish();
+                break;
+            case R.id.top_home_filtrate:
+                break;
+        }
+    }
+}

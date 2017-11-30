@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="245dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="205dp"
+                android:src="@mipmap/me_tu1"
+                />
+            <ImageView
+                android:layout_width="17.5dp"
+                android:layout_height="17.5dp"
+                android:src="@mipmap/home_picture"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4.5dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_nearby_people_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="木子兮"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_nearby_people_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.64Km"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:textColor="#F72F5E"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_nearby_people_distance"
+                android:src="@mipmap/home_location"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rlv_nearby_people_approve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ningchuang.youwuquan.ui.me.activity.PerfectionInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="你的个人信息"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="让大家知道如何称呼你"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55.5dp"
+        android:layout_marginRight="55.5dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设置昵称"
+
+            android:textColor="@color/normal_text_three"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/perfetopn_InputName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="请设置昵称"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="55.5dp"
+        android:layout_marginRight="55.5dp"
+        android:background="#e6e6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55.5dp"
+        android:layout_marginRight="55.5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设置生日"
+            android:textColor="@color/normal_text_three"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/perfetopn_inputBrith"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="点击选择生日"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="55.5dp"
+        android:layout_marginRight="55.5dp"
+        android:background="#e6e6e6" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55.5dp"
+        android:layout_marginRight="55.5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="选择你的性别"
+            android:textColor="@color/normal_text_three"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/perfetopn_Boy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/radiobutton_background"
+                android:checked="true"
+                android:text="男" />
+
+            <RadioButton
+                android:id="@+id/perfetopn_Girl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/radiobutton_background"
+                android:text="女" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/perfetopn_Next"
+        android:layout_width="315dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape_next_red"
+        android:text="下一步"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>

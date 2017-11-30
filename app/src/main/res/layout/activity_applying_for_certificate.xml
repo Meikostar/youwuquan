@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ningchuang.youwuquan.ui.me.activity.Applying_for_certificateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:id="@+id/certificate_me_back"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:src="@mipmap/back" />]
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="申请认证"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="\t姓\t\t\t\t名\t:"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="\t\t请输入姓名"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="\t手机号码（必填）:"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="\t\t请输入手机号码"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="\t微信号码（必填）:"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="\t\t请输入微信号码"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="\t邮\t\t\t\t箱\t:"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="\t\t请输入邮箱号码"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="\t身份证号（必填）:\t"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="\t\t请输入身份证号码"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center|left"
+            android:text="\t请上传身份证人像面和手持身份证人相面大头照："
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_margin="24dp"
+                android:background="@mipmap/add" />
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_margin="24dp"
+                android:background="@mipmap/add" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="转账流水号（必填)\t:"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="\t\t请输入转账流水号"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center|left"
+            android:text="\t请上传转账凭证:"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="24dp"
+            android:background="@mipmap/add" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#e6e6e6" />
+        
+        <TextView
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:textColor="#000"
+            android:text="\t备注："/>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="备注信息"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+        <Button
+            android:textColor="#fff"
+            android:layout_marginBottom="48dp"
+            android:layout_gravity="center"
+            android:text="提交"
+            android:background="@drawable/button_guanzhu"
+            android:layout_width="315dp"
+            android:layout_height="44dp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
