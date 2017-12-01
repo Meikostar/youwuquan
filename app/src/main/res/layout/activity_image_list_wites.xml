@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"/>
 
     <com.ningchuang.youwuquan.view.ViewPagerFixed
-
         android:layout_below="@+id/navigationBar"
         android:id="@+id/image_pager"
         android:layout_width="match_parent"
