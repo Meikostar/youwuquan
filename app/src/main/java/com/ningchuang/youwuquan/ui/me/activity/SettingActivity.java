@@ -11,6 +11,7 @@ import com.ningchuang.youwuquan.R;
 import com.ningchuang.youwuquan.app.Api;
 import com.ningchuang.youwuquan.utils.CacheUtils;
 import com.zqd.common.base.BaseActivity;
+import com.zqd.common.base.NavigationBar;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -18,8 +19,8 @@ import butterknife.OnClick;
 
 public class SettingActivity extends BaseActivity {
 
-    @Bind(R.id.setting_me_back)
-    ImageView settingMeBack;
+    @Bind(R.id.navigationBar)
+    NavigationBar navigationBar;
     @Bind(R.id.setting_clear_cache)
     RelativeLayout settingClearCache;
     @Bind(R.id.setting_update)
@@ -47,7 +48,7 @@ public class SettingActivity extends BaseActivity {
 
     @Override
     public void initView() {
-
+        navigationBar.setNavigationBarListener(this);
         try {
             settingGetCache.setText(CacheUtils.getTotalCacheSize(getApplicationContext())+"");
         } catch (Exception e) {

@@ -14,11 +14,15 @@ import android.widget.TextView;
 import com.ningchuang.youwuquan.R;
 import com.ningchuang.youwuquan.ui.me.activity.ActorCardActivity;
 import com.ningchuang.youwuquan.ui.me.activity.AuthenticationActivity;
+import com.ningchuang.youwuquan.ui.me.activity.DownActivity;
 import com.ningchuang.youwuquan.ui.me.activity.LoginActivity;
 import com.ningchuang.youwuquan.ui.me.activity.MeAlbumActivity;
 import com.ningchuang.youwuquan.ui.me.activity.MeInfoActivity;
 import com.ningchuang.youwuquan.ui.me.activity.MeMoneyActivity;
 import com.ningchuang.youwuquan.ui.me.activity.SettingActivity;
+import com.ningchuang.youwuquan.ui.me.activity.SkillActivity;
+import com.ningchuang.youwuquan.ui.me.activity.TaskActivity;
+import com.ningchuang.youwuquan.ui.me.activity.VipRowActivity;
 import com.zqd.common.base.BaseFragment;
 
 import butterknife.Bind;
@@ -58,7 +62,12 @@ public class MeFragment extends BaseFragment implements View.OnClickListener {
     LinearLayout lltMeApprove;
     @Bind(R.id.rll_me_card)
     RelativeLayout rllMeCard;
-
+    @Bind(R.id.ll_task)
+    RelativeLayout ll_task;
+    @Bind(R.id.ll_vip)
+    LinearLayout ll_vip;
+    @Bind(R.id.rl_down)
+    RelativeLayout rl_down;
     @Override
     protected int getLayoutResource() {
         return R.layout.fragment_me;
@@ -80,6 +89,9 @@ public class MeFragment extends BaseFragment implements View.OnClickListener {
         authenticationMe.setOnClickListener(this);
         lltMeApprove.setOnClickListener(this);
         rllMeCard.setOnClickListener(this);
+        ll_vip.setOnClickListener(this);
+        ll_task.setOnClickListener(this);
+        rl_down.setOnClickListener(this);
 
     }
 
@@ -125,7 +137,8 @@ public class MeFragment extends BaseFragment implements View.OnClickListener {
                 startActivity(MeAlbumActivity.class);
                 break;
             case R.id.authentication_me:
-
+                // TODO: 2017/11/20 我的技能
+                startActivity(SkillActivity.class);
                 break;
             case R.id.relat_me_set:
                 // TODO: 2017/11/20 设置
@@ -137,6 +150,15 @@ public class MeFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case R.id.rll_me_card:
                 startActivity(ActorCardActivity.class);
+                break;
+            case R.id.ll_vip:
+                startActivity(VipRowActivity.class);
+                break;
+            case R.id.ll_task:
+                startActivity(TaskActivity.class);
+                break;
+            case R.id.rl_down:
+                startActivity(DownActivity.class);
                 break;
 
         }

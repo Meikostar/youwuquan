@@ -9,6 +9,7 @@ import com.ningchuang.youwuquan.R;
 import com.ningchuang.youwuquan.ui.me.adapter.Icon_me_Adapter;
 import com.ningchuang.youwuquan.ui.me.bean.IconBean;
 import com.zqd.common.base.BaseActivity;
+import com.zqd.common.base.NavigationBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +19,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class AuthenticationActivity extends BaseActivity {
-    @Bind(R.id.renzheng_me_back)
-    ImageView renzhengMeBack;
+    @Bind(R.id.navigationBar)
+    NavigationBar navigationBar;
     @Bind(R.id.renzheng_me_tubiao)
     RecyclerView renzhengMeTubiao;
 
@@ -48,6 +49,7 @@ public class AuthenticationActivity extends BaseActivity {
 
     @Override
     public void initView() {
+        navigationBar.setNavigationBarListener(this);
         renzhengMeTubiao.setLayoutManager(new GridLayoutManager(this, 4));
         Icon_me_Adapter mAdapter = new Icon_me_Adapter(this,icon_pic);
         renzhengMeTubiao.setAdapter(mAdapter);
@@ -61,7 +63,5 @@ public class AuthenticationActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.renzheng_me_back)
-    public void onViewClicked() {
-    }
+
 }

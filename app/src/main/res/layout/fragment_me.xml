@@ -288,6 +288,7 @@
                     android:background="#e6e6e6" />
 
                 <LinearLayout
+                    android:id="@+id/ll_vip"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -348,6 +349,7 @@
                 android:background="#f4f4f4" />
 
             <RelativeLayout
+                android:id="@+id/ll_task"
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
 
@@ -406,6 +408,7 @@
                 android:background="#e6e6e6" />
 
             <RelativeLayout
+                android:id="@+id/rl_down"
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
 

@@ -180,6 +180,12 @@ public class ModelInfoActivity extends BaseActivity {
 
     @Override
     public void initView() {
+        backIamgeModelInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
          type = getIntent().getIntExtra("type", 0);
          if(type!=0){
              guanzhuButtonModelInfo.setVisibility(View.INVISIBLE);

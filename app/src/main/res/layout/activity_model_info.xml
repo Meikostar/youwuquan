@@ -64,12 +64,13 @@
                     android:textSize="16sp" />
 
                 <ImageView
+                    android:paddingRight="10dp"
                     android:id="@+id/back_Iamge_modelInfo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
                     android:layout_alignTop="@id/share_text_modelInfo"
                     android:layout_marginLeft="10dp"
-                    android:background="@mipmap/back" />
+                    android:src="@mipmap/back" />
 
                 <TextView
                     android:id="@+id/juli_text_modelInfo"

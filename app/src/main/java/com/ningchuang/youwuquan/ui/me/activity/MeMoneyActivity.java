@@ -47,7 +47,12 @@ public class MeMoneyActivity extends BaseActivity {
 
     @Override
     public void initView() {
-
+        moneyMeBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     @Override

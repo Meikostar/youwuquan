@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_alignParentBottom="true"
-            android:background="@drawable/shape_gradient_wangh"
+            android:background="@mipmap/home_jianbian1"
             >
         </RelativeLayout>
         <ImageView

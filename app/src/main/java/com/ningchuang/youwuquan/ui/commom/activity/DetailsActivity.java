@@ -21,6 +21,7 @@ import com.ningchuang.youwuquan.view.FullyLinearLayoutManager;
 import com.ningchuang.youwuquan.view.GlideCircleTransform;
 import com.ningchuang.youwuquan.view.NinePic.model.NineGridPicShowModel;
 import com.zqd.common.base.BaseActivity;
+import com.zqd.common.base.NavigationBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,8 +32,8 @@ import butterknife.OnClick;
 
 public class DetailsActivity extends BaseActivity {
 
-    @Bind(R.id.dongtai_back)
-    ImageView dongtaiBack;
+    @Bind(R.id.navigationBar)
+    NavigationBar navigationBar;
     @Bind(R.id.details_head_icon)
     ImageView detailsHeadIcon;
     @Bind(R.id.details_guanzhu)
@@ -110,7 +111,7 @@ public class DetailsActivity extends BaseActivity {
 //        RecyclerView detailsImage;
 //        RecyclerView detailsDianzan;
 //        RecyclerView detailsComment;
-
+        navigationBar.setNavigationBarListener(this);
 
         //设置头部的 用户图片 用户名  发布时间
         Glide.with(this).load(details.getModel_Icon()).transform(new GlideCircleTransform(this)).error(R.mipmap.ic_launcher_round).into(detailsHeadIcon);
@@ -149,11 +150,10 @@ public class DetailsActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.dongtai_back, R.id.details_head_icon, R.id.details_guanzhu, R.id.details_input})
+    @OnClick({ R.id.details_head_icon, R.id.details_guanzhu, R.id.details_input})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R.id.dongtai_back:
-                break;
+
             case R.id.details_head_icon:
                 break;
             case R.id.details_guanzhu:

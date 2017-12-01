@@ -12,6 +12,7 @@ import com.bigkoo.pickerview.TimePickerView;
 import com.ningchuang.youwuquan.R;
 import com.ningchuang.youwuquan.utils.LogUtils;
 import com.zqd.common.base.BaseActivity;
+import com.zqd.common.base.NavigationBar;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -21,7 +22,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MeInfoActivity extends BaseActivity {
-
+    @Bind(R.id.navigationBar)
+    NavigationBar navigationBar;
     @Bind(R.id.me_info_name)
     EditText meInfoName;
     @Bind(R.id.me_info_birthday)
@@ -55,7 +57,7 @@ public class MeInfoActivity extends BaseActivity {
 
     @Override
     public void initView() {
-
+        navigationBar.setNavigationBarListener(this);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(mContext, R.layout.simple_spinner_item);
         String level[] = getResources().getStringArray(R.array.constellation_array);//资源文件
         for (int i = 0; i < level.length; i++) {

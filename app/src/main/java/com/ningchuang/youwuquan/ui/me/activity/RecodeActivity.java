@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.ningchuang.youwuquan.R;
 import com.ningchuang.youwuquan.ui.me.bean.RecodeBean;
 import com.zqd.common.base.BaseActivity;
+import com.zqd.common.base.NavigationBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +24,8 @@ public class RecodeActivity extends BaseActivity {
 
     private List<RecodeBean> mList = null;
 
-    @Bind(R.id.recode_me_back)
-    ImageView recodeMeBack;
+    @Bind(R.id.navigationBar)
+    NavigationBar navigationBar;
     @Bind(R.id.recode_me_recycle)
     RecyclerView recodeMeRecycle;
 
@@ -40,6 +41,7 @@ public class RecodeActivity extends BaseActivity {
 
     @Override
     public void initView() {
+        navigationBar.setNavigationBarListener(this);
         mList = new ArrayList<>();
         mList.add(new RecodeBean("提现", "2017-09-3 08:33:15", "-3000"));
         mList.add(new RecodeBean("充值", "2017-09-3 08:33:15", "-3000"));

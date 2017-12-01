@@ -77,9 +77,10 @@ public class NearbyActivity extends BaseActivity implements NearbyPeopleAdapter.
     public void onNearbyPeopleClick(View view, Object o, int pos) {
 
     }
+
     @Override
     public void navigationimg() {
+        super.navigationimg();
         showPopwindow();
     }
-
 }

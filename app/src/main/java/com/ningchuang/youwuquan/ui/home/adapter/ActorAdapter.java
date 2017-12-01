@@ -40,7 +40,7 @@ public class ActorAdapter extends RecyclerView.Adapter<ActorAdapter.MyHolder> {
 
     @Override
     public void onBindViewHolder(MyHolder holder, int position) {
-        holder.rltXu.setBackgroundResource(R.drawable.shape_gradient_actor);
+        holder.rltXu.setBackgroundResource(R.mipmap.home_jianbian2);
         holder.itemView.setOnClickListener(view -> setOnActorClick.onActorClick(holder.itemView,mList,position));
         holder.iv_home_backgroud.setOnClickListener(new View.OnClickListener() {
             @Override

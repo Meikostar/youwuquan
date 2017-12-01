@@ -44,7 +44,12 @@
         <activity android:name=".ui.upload.activity.ReleaseActivity" />
         <activity android:name=".ui.upload.activity.FlagActivity" />
         <activity android:name=".ui.me.activity.PublicAlbumActivity" />
-        <activity android:name=".ui.me.activity.ImageListWitesActivity"></activity>
+        <activity android:name=".ui.me.activity.ImageListWitesActivity" />
+        <activity android:name=".ui.me.activity.SkillActivity" />
+        <activity android:name=".ui.me.activity.EditSkillActivity" />
+        <activity android:name=".ui.me.activity.VipRowActivity" />
+        <activity android:name=".ui.me.activity.TaskActivity" />
+        <activity android:name=".ui.me.activity.DownActivity"></activity>
     </application>
 
 </manifest>
